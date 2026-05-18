@@ -1,0 +1,105 @@
+.legal-main {
+  padding: 72px 28px 96px;
+  background: var(--white);
+}
+.legal-inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+.legal-eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+.legal-title {
+  font-family: var(--font-serif);
+  font-size: clamp(32px, 5vw, 48px);
+  line-height: 1.12;
+  color: var(--black);
+  margin-bottom: 8px;
+}
+.legal-date {
+  font-size: 13px;
+  color: var(--gray-400);
+  margin-bottom: 40px;
+}
+.legal-inner p {
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--gray-600);
+  margin-bottom: 20px;
+}
+.legal-inner h2 {
+  font-family: var(--font-serif);
+  font-size: 22px;
+  color: var(--black);
+  margin-top: 40px;
+  margin-bottom: 12px;
+}
+.legal-inner h3 {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--black);
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+.legal-inner ul {
+  padding-left: 22px;
+  margin-bottom: 20px;
+}
+.legal-inner ul li {
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--gray-600);
+  margin-bottom: 6px;
+}
+.legal-inner a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.legal-inner a:hover {
+  text-decoration: underline;
+}
+
+/* Contact page */
+.contact-card {
+  background: var(--gray-50);
+  border-radius: var(--radius);
+  padding: 28px;
+  margin-top: 32px;
+  border: 1px solid rgba(0,0,0,0.07);
+}
+.contact-row {
+  display: flex;
+  gap: 20px;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.07);
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--gray-600);
+}
+.contact-row:last-child {
+  border-bottom: none;
+}
+.contact-label {
+  font-weight: 700;
+  color: var(--black);
+  min-width: 90px;
+}
+.contact-row a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.contact-row a:hover {
+  text-decoration: underline;
+}
+
+/* Nav wordmark as link */
+nav .wordmark {
+  text-decoration: none;
+  color: var(--black);
+}
