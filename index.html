@@ -15,13 +15,20 @@
   <!-- NAV -->
   <nav>
     <div class="nav-inner">
-      <span class="wordmark">SIFT</span>
+      <a href="/" class="nav-brand">
+        <img src="/images/sift-logo.png" alt="SIFT" class="nav-logo" />
+        <span class="wordmark">SIFT</span>
+      </a>
       <a class="nav-cta" href="https://apps.apple.com/app/id0000000000" target="_blank">Download</a>
     </div>
   </nav>
 
   <!-- HERO -->
   <section class="hero">
+    <div class="hero-bg">
+      <img src="/images/nci2.jpg" alt="" class="hero-bg-img" />
+      <div class="hero-bg-overlay"></div>
+    </div>
     <div class="hero-inner">
       <p class="eyebrow">For researchers</p>
       <h1>Science moves fast.<br><span class="accent">Not all of it deserves<br>your attention.</span></h1>
@@ -31,6 +38,15 @@
         Download on the App Store
       </a>
     </div>
+  </section>
+
+  <!-- GOODSELL STRIP -->
+  <section class="goodsell-strip">
+    <div class="goodsell-inner">
+      <img src="/images/goodsell1.png" alt="Molecular biology illustration" class="goodsell-img" />
+      <img src="/images/goodsell2.png" alt="Blood plasma molecular illustration" class="goodsell-img" />
+    </div>
+    <p class="goodsell-caption">Illustrations by David S. Goodsell, RCSB Protein Data Bank</p>
   </section>
 
   <!-- FEATURES -->
@@ -67,7 +83,7 @@
 
         <div class="feature-card">
           <div class="feature-icon" style="background:#e0f2fe;">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="#0284c7"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20" stroke="#fff" stroke-width="1.5" fill="none"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg>
           </div>
           <h3>See what's trending across all of science</h3>
           <p>A curated view of high-impact new papers across every discipline — for when you want to look beyond your immediate focus.</p>
@@ -75,7 +91,7 @@
 
         <div class="feature-card">
           <div class="feature-icon" style="background:#ede9fe;">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="#4f46e5"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4f46e5" stroke-width="1.8"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
           </div>
           <h3>Understand any paper in minutes</h3>
           <p>Get a deep breakdown of any open-access paper — key findings, what's novel, what's contested, and an honest critical assessment of the evidence.</p>
@@ -83,12 +99,30 @@
 
         <div class="feature-card">
           <div class="feature-icon" style="background:#fff7ed;">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="#ea580c"><path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ea580c" stroke-width="1.8"><path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
           </div>
           <h3>Know how much to trust the source</h3>
           <p>Instantly see how respected a journal is. Useful context for deciding how much weight to give a result, without having to look it up.</p>
         </div>
 
+      </div>
+    </div>
+  </section>
+
+  <!-- FOR RESEARCHERS -->
+  <section class="researcher-section">
+    <div class="section-inner researcher-inner">
+      <div class="researcher-text">
+        <p class="section-label">BUILT FOR RESEARCHERS</p>
+        <h2>Your field moves fast.<br>SIFT keeps you ahead of it.</h2>
+        <p>Whether you're a graduate student keeping up with your thesis area or a senior researcher tracking a dozen sub-fields, SIFT adapts to your level and your work. Create up to five independent feeds, each tuned to a different research area.</p>
+        <a class="btn-dark" href="https://apps.apple.com/app/id0000000000" target="_blank">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+          Download on the App Store
+        </a>
+      </div>
+      <div class="researcher-img-wrap">
+        <img src="/images/scientist1.jpg" alt="Researcher at microscope" class="researcher-img" />
       </div>
     </div>
   </section>
@@ -104,7 +138,12 @@
 
   <!-- CTA -->
   <section class="cta-section">
+    <div class="cta-bg">
+      <img src="/images/nci1.jpg" alt="" class="cta-bg-img" />
+      <div class="cta-bg-overlay"></div>
+    </div>
     <div class="section-inner cta-inner">
+      <img src="/images/sift-logo.png" alt="SIFT" class="cta-logo" />
       <h2>Stay ahead of your field.</h2>
       <p>Available now on iOS.</p>
       <a class="btn-primary" href="https://apps.apple.com/app/id0000000000" target="_blank">
@@ -117,11 +156,14 @@
   <!-- FOOTER -->
   <footer>
     <div class="footer-inner">
-      <span class="wordmark">SIFT</span>
+      <a href="/" class="nav-brand footer-brand">
+        <img src="/images/sift-logo.png" alt="SIFT" class="nav-logo footer-logo" />
+        <span class="wordmark">SIFT</span>
+      </a>
       <div class="footer-links">
         <a href="/privacy">Privacy Policy</a>
         <a href="/terms">Terms of Use</a>
-        <a href="mailto:support@siftscience.app">Contact</a>
+        <a href="/contact">Contact</a>
       </div>
     </div>
   </footer>
