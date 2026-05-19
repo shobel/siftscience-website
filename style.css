@@ -79,6 +79,9 @@ nav {
 .hero {
   position: relative;
   background: var(--black);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
   padding: 100px 28px 110px;
   overflow: hidden;
 }
