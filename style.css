@@ -252,6 +252,9 @@ h2 {
   font-size: 16px;
   line-height: 1.7;
   color: var(--gray-600);
+  margin-bottom: 16px;
+}
+.researcher-text p:last-of-type {
   margin-bottom: 36px;
 }
 .researcher-img-wrap {
