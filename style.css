@@ -231,6 +231,96 @@ h2 {
   color: var(--gray-600);
 }
 
+/* WHY WE CREATED IT */
+.why-section {
+  background: var(--black);
+  padding: 96px 28px;
+}
+.why-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: start;
+}
+.section-label-light {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: rgba(255,255,255,0.35);
+  margin-bottom: 14px;
+}
+.why-heading {
+  font-family: var(--font-serif);
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: 1.2;
+  color: var(--white);
+  margin-bottom: 36px;
+}
+.pain-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.pain-list li {
+  font-size: 15px;
+  line-height: 1.65;
+  color: rgba(255,255,255,0.5);
+  padding-left: 22px;
+  position: relative;
+}
+.pain-list li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: rgba(255,255,255,0.2);
+  font-weight: 700;
+}
+.why-solution-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: var(--radius);
+  padding: 36px;
+}
+.why-sparkle {
+  font-size: 28px;
+  display: block;
+  margin-bottom: 16px;
+}
+.why-solution-card h3 {
+  font-family: var(--font-serif);
+  font-size: clamp(20px, 2.5vw, 26px);
+  color: var(--white);
+  margin-bottom: 16px;
+  line-height: 1.25;
+}
+.why-solution-card p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 24px;
+}
+.solution-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.solution-list li {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.45);
+  padding-left: 20px;
+  position: relative;
+}
+.solution-list li::before {
+  content: '✕';
+  position: absolute;
+  left: 0;
+  font-size: 11px;
+  color: rgba(255,255,255,0.2);
+}
+
 /* FOR RESEARCHERS */
 .researcher-section {
   background: var(--white);
@@ -381,6 +471,10 @@ footer .wordmark { color: rgba(255,255,255,0.5); font-size: 16px; }
 
 /* RESPONSIVE */
 @media (max-width: 860px) {
+  .why-inner {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
   .researcher-inner {
     grid-template-columns: 1fr;
   }
@@ -396,7 +490,7 @@ footer .wordmark { color: rgba(255,255,255,0.5); font-size: 16px; }
 }
 @media (max-width: 600px) {
   .hero { padding: 72px 20px 80px; }
-  .features, .quote-section, .cta-section, .researcher-section { padding: 72px 20px; }
+  .features, .quote-section, .cta-section, .researcher-section, .why-section { padding: 72px 20px; }
   .feature-grid { grid-template-columns: 1fr; }
   .footer-inner { flex-direction: column; align-items: flex-start; }
 }
